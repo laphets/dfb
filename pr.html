@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<link rel="shortcut icon" href="http://blog.laphets.com/favicon.ico" type="image/x-icon">
+		<title>Applications Of HTML5 Canvas In Plotting</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/sky_sp.css" id="theme">
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+	</head>
+
+	<body>
+		<div class="reveal">
+
+			<div class="slides">
+
+				<section>					
+					<br><br><br><br>
+					<h2>Applications Of HTML5 Canvas In Plotting</h2>
+					<br><br><br><br>
+					<sb>罗文卿 Laphets</sb><br>
+					<sb>浙江省义乌中学 Yiwu High School</sb>
+				</section>
+
+				
+				<section>
+
+				<section>
+					<h1>引言 Preface</h1>
+				</section>
+
+				<section>
+					<h1>What's Canvas?</h1>
+				</section>
+				
+				<section>
+					
+					<p class="fragment grow">一个画布？</p>
+					<p class="fragment grow">一个图片处理工具？</p><br>
+					<p class="fragment fade-right">To Be More Exactly</p>
+					<p class="fragment fade-right">这是一个可以使用JavaScript进行操作的位图(bitmap)</p>
+				</section>
+
+
+				</section>
+
+				
+				<section>
+
+				<section>
+					<h1>What can Canvas do?</h1>
+				</section>
+				<section>
+					<p>绘制简单的点、线、面</p>
+					<p class="fragment fade-up">进行图片的平铺、裁剪，以及文字的绘制</p>
+					<p class="fragment fade-up">绘制你可以用Flash做出来的任何动画</p>
+					<p class="fragment fade-up">还可以直接对图片的像素进行处理</p>
+					<p class="fragment fade-up">And More...</p>
+				</section>
+				
+				</section>
+
+				<section>
+
+				<section>
+					<h1>Some Demos?</h1>
+				</section>
+				
+				<section data-transition="concave" data-background="rgb(178,200,187)" data-background-transition="zoom">
+					<h2>动画时钟(Page 28)</h2>
+					<canvas id="canvas1.1"></canvas>
+					<script src="1.1.js"></script>
+				</section>
+				<section data-transition="convex" data-background="#dddddd" data-background-transition="zoom">
+					<h2>平行四边形定则实验(Page 31)</h2>
+					<!--
+					<canvas id="canvas1.2" width="1000" height="1000"></canvas>
+					<script src="1.2.js"></script>
+					-->
+				</section>
+				<section data-transition="convex" data-background="#55a255" data-background-transition="zoom">
+					<h2>自由落体实验(Page 42)</h2>
+					<!--
+					<canvas id="canvas1.2" width="1000" height="1000"></canvas>
+					<script src="1.2.js"></script>
+					-->
+				</section>
+				</section>
+
+				
+				<section>
+					
+					<h3>Copyright © 2015-2016 Laphets . All Rights Reserved.</h3>
+				</section>
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			Reveal.initialize({
+				history: true,
+				transition: 'linear',
+
+				math: {
+					// mathjax: 'http://cdn.mathjax.org/mathjax/latest/MathJax.js',
+					config: 'TeX-AMS_HTML-full'
+				},
+
+				dependencies: [
+					{ src: 'lib/js/classList.js' },
+					{ src: 'plugin/math/math.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
